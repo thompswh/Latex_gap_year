@@ -1,0 +1,120 @@
+% Page formatting
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+
+% Math packages
+\usepackage{amsfonts, amsmath, amssymb, amsthm}
+\usepackage{mathtools}
+
+% Graphs
+\usepackage{tikz}
+
+% Formatting packages
+\usepackage{xcolor}
+\usepackage[inline,shortlabels]{enumitem}
+\usepackage{hyperref} % Links
+\hypersetup{colorlinks=true, linkcolor = navyblue, urlcolor=blue}
+\usepackage{titlesec} % Title
+\usepackage{mdframed} % Boxes
+\usepackage[twoside]{fancyhdr} % Header
+\usepackage{mathtools}
+\usepackage{enumitem}
+
+% Algorithm / Code packages
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage[sanserif,full]{complexity}
+
+
+
+% -------------------------------------- TITLE ------------------------------------------
+\title{Title}
+\author{Whitaker Thompson}
+\date{\today}
+% -------------------------------------- TITLE ------------------------------------------
+
+% Format the section titles
+\renewcommand{\thesection}{\Roman{section}}
+
+% Commands
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\FF}{\mathbb{F}}
+\newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
+\newcommand{\curlyt}{\mathscr{T}}
+\newcommand{\curlyc}{\mathscr{C}}
+\newcommand{\curlyb}{\mathscr{B}}
+\newcommand{\curlyu}{\mathscr{U}}
+\newcommand{\curlyv}{\mathscr{V}}
+\newcommand{\im}{\text{im}}
+\newcommand{\tr}{\text{tr}}
+\newcommand{\inv}[1]{#1^{-1}}
+\DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
+\newcommand{\sol}{\textbf{Solution. }}
+\newtheorem*{lemma}{Lemma}
+\newtheorem*{definition}{Definition}
+
+% EECS 475 Commands
+\newcommand{\keyspace}{\ensuremath{\mathcal{K}}}
+\newcommand{\msgspace}{\ensuremath{\mathcal{M}}}
+\newcommand{\ctspace}{\ensuremath{\mathcal{C}}}
+\newcommand{\tagspace}{\ensuremath{\mathcal{T}}}
+\newcommand{\idspace}{\ensuremath{\mathcal{ID}}}
+\newcommand{\skcgen}{{\sf Gen}} 
+\newcommand{\skcenc}{{\sf Enc}}
+\newcommand{\skcdec}{{\sf Dec}}
+\newcommand{\negl}{\text{negl}}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\calD}{\mathcal{D}}
+\newcommand{\inner}[2]{\langle #1, #2 \rangle}
+\newcommand{\advan}{\textbf{Adv}}
+\newcommand{\Ex}{\mathbb{E}}
+\newcommand{\argmin}{\text{argmin}}
+\newcommand{\argmax}{\text{argmax}}
+
+
+
+\begin{document}
+
+\pagestyle{fancy}
+\fancyhf{}
+%------------------------------------- HEADER --------------------------------------------
+\fancyhead[R]{Whitaker Thompson}
+\fancyhead[L]{Class}
+%\fancyhead[C]{\today}
+\fancyfoot[C]{\thepage}
+%------------------------------------- HEADER --------------------------------------------
+
+\maketitle
+\thispagestyle{fancy} % For formatting the title page
+
+
+% -----------------------------COMMANDS FOR TOC ------------------------------------
+%\tableofcontents
+%\newpage
+
+
+%---------------------------------- BEGIN -------------------------------------------
+
+Question: For an $\FPT$ algorithm, if you lift the requirement that the function of $k$ in the runtime is computable, why is that a problem?
+
+Maybe a simpler question to start with would be this: between any two functions $f(n), g(n): \NN \to \NN$ such that $f(n) = o(g(n))$, is it the case that there exists an uncomputable function in between them? I.e. does there exist a function $h(n)$ such that $h(n) = \Omega(f(n))$ and $h(n) = o(g(n))$? 
+
+Ok, it seems like the answer is largely pedantic, that according to this \href{https://cs.stackexchange.com/questions/152996/why-do-we-care-about-computable-functions-in-parametrized-complexity-definitions}{post}, in the original parameterized algorithms textbook, Downey and Fellows actually address this problem.
+
+\begin{definition}[Fundamental definitions]
+	Let $A$ be a parameterized problem
+	\begin{enumerate}[(i)]
+		\item We say that $A$ is \emph{uniformly fixed-parameter tractable}
+			if there exists an algorithm $\Theta$, a constant $c$, and an arbitrary function $f : \NN \to \NN$ such that \begin{enumerate}[(a)]
+				\item The running time of $\Theta(\langle x , k \rangle)$ is at most $f(k)|x|^c$, 
+
+				\item $\langle x, k \rangle \in A$ iff $\Theta(\langle x, k \rangle) = 1$
+			\end{enumerate}
+		\item We say that $A$ is \emph{strongly uniformly fixed-parameter tractable} if $A$ is uniformly fixed-parameter tractable and 
+	\end{enumerate}
+\end{definition}
+
+\end{document}

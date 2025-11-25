@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+
+\bibitem{chen2024simplecombinatorialconstructionko1lower}
+Yijia Chen, Yi~Feng, Bundit Laekhanukit, and Yanlin Liu.
+\newblock Simple combinatorial construction of the $k^{o(1)}$-lower bound for
+  approximating the parameterized $k$-clique, 2024.
+
+\bibitem{FLGSS}
+Uriel Feige, Shafi Goldwasser, Laszlo Lov\'{a}sz, Shmuel Safra, and Mario
+  Szegedy.
+\newblock Interactive proofs and the hardness of approximating cliques.
+\newblock {\em J. ACM}, 43(2):268–292, March 1996.
+
+\end{thebibliography}
