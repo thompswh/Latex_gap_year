@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1764510671.26413 "main_northwestern_PS.tex" "main_northwestern_PS.pdf" "main_northwestern_PS" 1764510674.27611 0
+["pdflatex"] 1764600032.96347 "main_northwestern_PS.tex" "main_northwestern_PS.pdf" "main_northwestern_PS" 1764600036.33017 0
   "C:/Users/whita/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1764026526 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/whita/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1763211849 13333512 d01b03c3598d1d8aa14ccffea3bcca82 ""
   "C:/Users/whita/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr10.tfm" 1136765053 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -144,9 +144,9 @@
   "C:/Users/whita/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/whita/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1750428951 2269 2de6c7a5fd634dfef00a960544463a38 ""
   "C:/Users/whita/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1750428951 20785 198a9cb2e04238d92c320d0d9edbd76a ""
-  "main_northwestern_PS.aux" 1764510673 234 7c5e75dd52d50eb65b60bc56617635fd "pdflatex"
-  "main_northwestern_PS.out" 1764510673 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main_northwestern_PS.tex" 1764510449 3773 a100814d83b5562ca76ba13ff9a89661 ""
+  "main_northwestern_PS.aux" 1764600035 234 7c5e75dd52d50eb65b60bc56617635fd "pdflatex"
+  "main_northwestern_PS.out" 1764600035 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main_northwestern_PS.tex" 1764600032 3773 95b6bc2e42f4fc9418e06f49b3e7c4f0 ""
   (generated)
   "main_northwestern_PS.aux"
   "main_northwestern_PS.log"

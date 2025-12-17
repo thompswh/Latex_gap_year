@@ -1,0 +1,96 @@
+
+% Page formatting
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+
+% Math packages
+\usepackage{amsfonts, amsmath, amssymb, amsthm}
+\usepackage{mathtools}
+
+% Graphs
+\usepackage{tikz}
+
+% Formatting packages
+\usepackage{xcolor}
+\usepackage[inline,shortlabels]{enumitem}
+\usepackage{hyperref} % Links
+\hypersetup{colorlinks=true, linkcolor = navyblue, urlcolor=blue}
+\usepackage{titlesec} % Title
+\usepackage{mdframed} % Boxes
+\usepackage[twoside]{fancyhdr} % Header
+\usepackage{mathtools}
+\usepackage{enumitem}
+
+% Algorithm / Code packages
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage[sanserif,full]{complexity}
+
+
+\setlength{\headheight}{15pt}
+
+% -------------------------------------- TITLE ------------------------------------------
+\title{Statement of Purpose}
+\author{Whitaker Thompson}
+\date{\today}
+% -------------------------------------- TITLE ------------------------------------------
+
+% Format the section titles
+\renewcommand{\thesection}{\Roman{section}}
+
+% Commands
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
+\newcommand{\curlyt}{\mathscr{T}}
+\newcommand{\curlyc}{\mathscr{C}}
+\newcommand{\curlyb}{\mathscr{B}}
+\newcommand{\curlyu}{\mathscr{U}}
+\newcommand{\curlyv}{\mathscr{V}}
+\newcommand{\im}{\text{im}}
+\newcommand{\tr}{\text{tr}}
+\newcommand{\inv}[1]{#1^{-1}}
+\DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
+\newcommand{\sol}{\textbf{Solution. }}
+\newtheorem*{lemma}{Lemma}
+
+% EECS 475 Commands
+\newcommand{\keyspace}{\ensuremath{\mathcal{K}}}
+\newcommand{\msgspace}{\ensuremath{\mathcal{M}}}
+\newcommand{\ctspace}{\ensuremath{\mathcal{C}}}
+\newcommand{\tagspace}{\ensuremath{\mathcal{T}}}
+\newcommand{\idspace}{\ensuremath{\mathcal{ID}}}
+\newcommand{\skcgen}{{\sf Gen}} 
+\newcommand{\skcenc}{{\sf Enc}}
+\newcommand{\skcdec}{{\sf Dec}}
+\newcommand{\negl}{\text{negl}}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\calD}{\mathcal{D}}
+\newcommand{\inner}[2]{\langle #1, #2 \rangle}
+\newcommand{\advan}{\textbf{Adv}}
+\newcommand{\Ex}{\mathbb{E}}
+\newcommand{\argmin}{\text{argmin}}
+\newcommand{\argmax}{\text{argmax}}
+
+
+
+\begin{document}
+
+\begin{centering}
+
+{\LARGE Thesis Abstract}
+
+\vspace*{2mm}
+Whitaker Thompson 
+
+\end{centering}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+The Unique Games problem is central to the theory of hardness of approximation; it is conjectured to be $\NP$-hard to distinguish between almost and barely satisfiable instances in the general case. This conjecture implies the optimality of approximaton algorithms for several canonical $\NP$-hard problems, like \textsc{VertexCover} and \textsc{MaxCut}.
+
+In this thesis, we study the Unique Games problem when the constraint graph is a metric graph, i.e.\ a complete graph equipped with a weight that obeys the triangle inequality. We give a randomized polynomial-time algorithm that selects a pivot and then rounds a solution to an extended linear-programming relaxation of the problem. Our algorithm is simple and achieves a 12-approximation in expectation, which separates our case from the general case, assuming the Unique Games Conjecture.
+
+\end{document}

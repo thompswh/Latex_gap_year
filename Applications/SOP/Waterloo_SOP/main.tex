@@ -1,0 +1,100 @@
+% Page formatting
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+
+% Math packages
+\usepackage{amsfonts, amsmath, amssymb, amsthm}
+\usepackage{mathtools}
+
+% Graphs
+\usepackage{tikz}
+
+% Formatting packages
+\usepackage{xcolor}
+\usepackage[inline,shortlabels]{enumitem}
+\usepackage{hyperref} % Links
+\hypersetup{colorlinks=true, linkcolor = navyblue, urlcolor=blue}
+\usepackage{titlesec} % Title
+\usepackage{mdframed} % Boxes
+\usepackage[twoside]{fancyhdr} % Header
+\usepackage{mathtools}
+\usepackage{enumitem}
+
+% Algorithm / Code packages
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage[sanserif,full]{complexity}
+
+
+\setlength{\headheight}{15pt}
+% -------------------------------------- TITLE ------------------------------------------
+\title{Title}
+\author{Whitaker Thompson}
+\date{\today}
+% -------------------------------------- TITLE ------------------------------------------
+
+% Format the section titles
+\renewcommand{\thesection}{\Roman{section}}
+
+% Commands
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\FF}{\mathbb{F}}
+\newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
+\newcommand{\curlyt}{\mathscr{T}}
+\newcommand{\curlyc}{\mathscr{C}}
+\newcommand{\curlyb}{\mathscr{B}}
+\newcommand{\curlyu}{\mathscr{U}}
+\newcommand{\curlyv}{\mathscr{V}}
+\newcommand{\im}{\text{im}}
+\newcommand{\tr}{\text{tr}}
+\newcommand{\inv}[1]{#1^{-1}}
+\DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
+\newcommand{\sol}{\textbf{Solution. }}
+\newtheorem*{lemma}{Lemma}
+
+% EECS 475 Commands
+\newcommand{\keyspace}{\ensuremath{\mathcal{K}}}
+\newcommand{\msgspace}{\ensuremath{\mathcal{M}}}
+\newcommand{\ctspace}{\ensuremath{\mathcal{C}}}
+\newcommand{\tagspace}{\ensuremath{\mathcal{T}}}
+\newcommand{\idspace}{\ensuremath{\mathcal{ID}}}
+\newcommand{\skcgen}{{\sf Gen}} 
+\newcommand{\skcenc}{{\sf Enc}}
+\newcommand{\skcdec}{{\sf Dec}}
+\newcommand{\negl}{\text{negl}}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\calD}{\mathcal{D}}
+\newcommand{\inner}[2]{\langle #1, #2 \rangle}
+\newcommand{\advan}{\textbf{Adv}}
+\newcommand{\Ex}{\mathbb{E}}
+\newcommand{\argmin}{\text{argmin}}
+\newcommand{\argmax}{\text{argmax}}
+
+
+
+\begin{document}
+
+\begin{center}
+	{\huge Statement of Interest}
+
+	Whitaker Thompson
+
+\end{center}
+
+\vspace{-2mm}
+
+\noindent \rule{\linewidth}{0.4pt}
+
+I am interested in pursuing a Ph.D. in theoretical computer science to study discerete optimization, particularly the discrete optimization of $\NP$-hard problems. Since these problems are widely believed to be intractable, I enjoy thinking about approximation algorithms for them.
+
+Starting in the summer after my junior year, I studied the Unique Games problem with Euiwoong Lee when the constraint graph was a metric graph, i.e.\ a complete graph equipped with a weight that obeys the triangle inequality. Our first approach was to try and prove a spectral graph-theoretic fact about metric graphs that would imply that an existing algorithm achieves a constant-factor approximation. We initially were able to prove a weaker version of this result, but ultimately changed directions. The next algorithm we came up with used a pivot vertex to round a solution to a linear program relaxation of our problem, achieving a constant-factor approximation in expectation. This separates metric graphs from the general case, assuming the Unique Games Conjecture. 
+
+One reason that the Unique Games problem was exciting to work on was that the approximability of that question is central in the theory of hardness of approximation, an area in which I have immense interest. I find it fascinating that there can be relative hardness results established among problems that are $\NP$-complete. I am excited to work with Professor Vijay Bhattiprolu and continue to think about hardness results for approximation. I am particularly looking forward to continuing the study of (conjectured) intractable discrete optimization through the lens of tractable convex optimization problems. I would also look forward to working with Professor Chaitanya Swamy on approximation algorithms for problems of a more combinatorial flavor. In reviewing the literature for problems related to the Unique Games problem, I came to appreciate the beauty and simplicity of algorithms for certain clustering problems, and I want to continue that exploration.
+
+My career goal is to pursue research in any setting that I can. Though I have held several teaching and tutoring positions and enjoyed them immensely, I am most motivated by research questions, and I will pursue that whether it be in an academic or an industrial setting. Though discrete optimization is mainly what I enjoy thinking about, part of what makes the C\&O graduate program attractive is the department's breadth of research topics. In the past two years, I have found that I am a better discrete approximation algorithms researcher when I am excited about other math areas, whether that be continuous optimization, computational complexity, or graph theory, and it is because of this that I know I would benefit greatly from being a student at the C\&O group at Waterloo. 
+
+
+\end{document}

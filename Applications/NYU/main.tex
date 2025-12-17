@@ -1,0 +1,123 @@
+% Page formatting
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+
+% Math packages
+\usepackage{amsfonts, amsmath, amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{setspace}
+% Graphs
+\usepackage{tikz}
+
+% Formatting packages
+\usepackage{xcolor}
+\usepackage[inline,shortlabels]{enumitem}
+\usepackage{hyperref} % Links
+\hypersetup{colorlinks=true, linkcolor = navyblue, urlcolor=blue}
+\usepackage{titlesec} % Title
+\usepackage{mdframed} % Boxes
+\usepackage[twoside]{fancyhdr} % Header
+\usepackage{mathtools}
+\usepackage{enumitem}
+
+% Algorithm / Code packages
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage[sanserif,full]{complexity}
+
+\doublespacing
+\setlength{\headheight}{15pt}
+
+% -------------------------------------- TITLE ------------------------------------------
+\title{}
+\author{Whitaker Thompson}
+\date{\today}
+% -------------------------------------- TITLE ------------------------------------------
+
+% Format the section titles
+\renewcommand{\thesection}{\Roman{section}}
+
+% Commands
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
+\newcommand{\curlyt}{\mathscr{T}}
+\newcommand{\curlyc}{\mathscr{C}}
+\newcommand{\curlyb}{\mathscr{B}}
+\newcommand{\curlyu}{\mathscr{U}}
+\newcommand{\curlyv}{\mathscr{V}}
+\newcommand{\im}{\text{im}}
+\newcommand{\tr}{\text{tr}}
+\newcommand{\inv}[1]{#1^{-1}}
+\DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
+\newcommand{\sol}{\textbf{Solution. }}
+\newtheorem*{lemma}{Lemma}
+
+% EECS 475 Commands
+\newcommand{\keyspace}{\ensuremath{\mathcal{K}}}
+\newcommand{\msgspace}{\ensuremath{\mathcal{M}}}
+\newcommand{\ctspace}{\ensuremath{\mathcal{C}}}
+\newcommand{\tagspace}{\ensuremath{\mathcal{T}}}
+\newcommand{\idspace}{\ensuremath{\mathcal{ID}}}
+\newcommand{\skcgen}{{\sf Gen}} 
+\newcommand{\skcenc}{{\sf Enc}}
+\newcommand{\skcdec}{{\sf Dec}}
+\newcommand{\negl}{\text{negl}}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\calD}{\mathcal{D}}
+\newcommand{\inner}[2]{\langle #1, #2 \rangle}
+\newcommand{\advan}{\textbf{Adv}}
+\newcommand{\Ex}{\mathbb{E}}
+\newcommand{\argmin}{\text{argmin}}
+\newcommand{\argmax}{\text{argmax}}
+
+
+
+\begin{document}
+
+
+%------------------------------------- HEADER --------------------------------------------
+%\fancyhead[R]{Whitaker Thompson}
+%\fancyhead[L]{Class}
+%\fancyhead[C]{\today}
+%\fancyfoot[C]{\thepage}
+%------------------------------------- HEADER --------------------------------------------
+
+%\maketitle
+%\thispagestyle{fancy} % For formatting the title page
+
+
+% -----------------------------COMMANDS FOR TOC ------------------------------------
+%\tableofcontents
+%\newpage
+
+
+%---------------------------------- BEGIN -------------------------------------------
+\begin{centering}
+
+{\LARGE Academic Statement of Purpose}
+
+Whitaker Thompson 
+
+\end{centering}
+
+\vspace*{-2mm}
+\noindent\rule{\textwidth}{0.4pt}
+
+I hope to pursue a Ph.D. in theoretical computer science to study discrete optimization, particularly approximation algorithms and hardness of approximation for $\NP$-hard problems. I also enjoy thinking about the interaction of these areas with parameterized algorithms, and establishing lower bound and hardness results for the approximate and parameterized versions of these problems.
+
+With Euiwoong Lee, I studied the Unique Games problem when the constraint graph is a metric graph, i.e.\ a complete graph equipped with a weight that obeys the triangle inequality. The Unique Games problem is central in the theory of hardness of approximation; in the general case, it is conjectured to be $\NP$-hard to distinguish between almost and barely satisfiable instances. This conjecture implies the optimality of approximation algorithms for several canonical $\NP$-hard graph problems, including \textsc{VertexCover} and \textsc{MaxCut}. Understanding the approximability of the problem on more restricted instances such as ours can give insight into the general case. 
+
+In similar problems, where the goal is to assign some labels to vertices to satisfy constraints along edges, an algorithmic paradigm that has been successful is that of using a \emph{pivot}. In these algorithms, a vertex is designated as the pivot, and the label for all other vertices are chosen with respect to that pivot's label. To apply this paradigm to our problem, we came up with a randomized algorithm that selects a pivot vertex and then rounds a solution to an extended linear programming relaxation of the problem. Our analysis crucially used the triangle inequality and resulted in the first constant-factor approximation algorithm for our problem, which separates our version of the problem from the general case, assuming the Unique Games Conjecture. This project culminated in my senior honors thesis, which I presented just before my graduation in April 2025.
+
+Though our result was substantial, the approximability of our problem was not entirely resolved yet. The summer after my graduation, I spent time independently trying to find a polynomial-time approximation scheme (PTAS) for the problem. I reviewed PTASes for metric versions of graph problems that used existing PTASes on dense versions as a subroutine, and this is where I became acquainted with and interested in the approximability of CSPs. I was drawn to them for their generality, and I continue to actively work toward using them to solve my problem.
+
+After my graduation in May 2025, I had planned to work as a supplementary math tutor at a high school in Boston through Americorps for the 2025-2026 school year while I applied to graduate school. Unfortunately, I found out in late June that due to funding issues, the job would no longer be offered. I opted to continue working my retail job in Ann Arbor for the school year so that I could audit some graduate theory courses that were being taught at Michigan. This has been a great way to continue to think about algorithms and grow intellectually.
+
+One of the courses I have been auditing this year is a special topics class on parameterized and fast exponential algorithms. I previously had seen parameterized algorithms in a graph algorithms course I took during my final undergraduate semester, and the course I am auditing is being taught by a professor who mainly works in approximation algorithms, so there was more of a focus on the interaction of parameterized algorithms with approximation. I have become interested in whether or not using both parameterization \emph{and} approximation can give an advantage for problems that each individual subarea suggests is hard. In pursuit of this, for my final project in the class, I am preparing a talk on a recent paper that surveys the parameterized approximability of the clique problem in order to acquaint myself with the existing literature.
+
+At New York University, I would be most excited to work with Anupam Gupta on approximation algorithms. In particular, my recent interest in parameterized algorithms has made me realize that some of the most algorithmically interesting questions arise when the problem allows for approximation within some altered computational model, whether that be the online setting or having access to some noisy predictions about the optimal solution. I would be specifically interested in establishing hardness of approximation results for the augmented versions of these problems, or exploring whether or not these modified models allow for stronger approximation, as has been the case with \textsc{MaxCut} and other 2-CSPs. I would also be interested in working with Sanjeev Khanna to continue my existing line of research on clustering-like problems and to examine this research within new models, such as the streaming model. My academic and research experiences have prepared me to continue down both of these research paths, and I am excited to do so. 
+
+\end{document}

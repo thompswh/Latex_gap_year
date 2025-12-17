@@ -1,3 +1,4 @@
+
 % Page formatting
 \documentclass[11pt]{article}
 \usepackage[margin=1in]{geometry}
@@ -77,50 +78,34 @@
 
 \begin{document}
 
-%------------------------------------- HEADER --------------------------------------------
-%\fancyhead[R]{Whitaker Thompson}
-%\fancyhead[L]{Class}
-%\fancyhead[C]{\today}
-%\fancyfoot[C]{\thepage}
-%------------------------------------- HEADER --------------------------------------------
-
-%\maketitle
-%\thispagestyle{fancy} % For formatting the title page
-
-
-% -----------------------------COMMANDS FOR TOC ------------------------------------
-%\tableofcontents
-%\newpage
-
-
-%---------------------------------- BEGIN -------------------------------------------
 \begin{centering}
 
-{\huge Personal Statement}
+{\LARGE Statement of Purpose}
 
-\smallskip
-
+\vspace*{2mm}
 Whitaker Thompson 
 
 \end{centering}
 
-
 \noindent\rule{\textwidth}{0.4pt}
+
 
 I hope to pursue a Ph.D. in theoretical computer science to study discrete optimization, particularly approximation algorithms and hardness of approximation for $\NP$-hard problems. I also enjoy thinking about the interaction of these areas with parameterized algorithms, and establishing lower bound and hardness results for the approximate and parameterized versions of these problems.
 
-With Euiwoong Lee, I studied the Unique Games problem when the constraint graph is a metric graph, i.e.\ a complete graph equipped with a weight that obeys the triangle inequality. The Unique Games problem is central in the theory of hardness of approximation; it is conjectured to admit no $O(1)$-approximation in the general case. This conjecture implies the optimality of approximation algorithms for several canonical $\NP$-hard problems, including $\mathsf{Vertex Cover}$ and $\mathsf{Max Cut}$. Understanding the approximability of the problem on more restricted instances such as ours can give insight into the general case. 
+With Euiwoong Lee, I studied the Unique Games problem when the constraint graph is a metric graph, i.e.\ a complete graph equipped with a weight that obeys the triangle inequality. The Unique Games problem is central in the theory of hardness of approximation; it is conjectured to be $\NP$-hard to distinguish between almost and barely satisfiable cases. This conjecture implies the optimality of approximation algorithms for several canonical $\NP$-hard problems, including \textsc{VertexCover} and \textsc{MaxCut}. Understanding the approximability of the problem on more restricted instances such as ours can give insight into the general case. 
 
 An existing algorithm for the Unique Games problem rounds a solution to a semidefinite programming relaxation of the problem. The quality of the approximation is then dependent on the expansion of the constraint graph. Our initial approach was to try and prove that metric graphs expand well, i.e.\ that the second largest eigenvalue of the normalized adjacency matrix of the graph is bounded above by some constant. I was able to prove a weaker version of this fact, but ultimately switched directions.
 
 In similar problems, where the goal is to assign some labels to vertices to satisfy constraints along edges, an algorithmic paradigm that has been successful is that of using a \emph{pivot}. In these algorithms, a vertex is designated as the pivot, and the label for every vertex in the neighborhood of the pivot is chosen with respect to the constraint along the edge. These algorithms are beautifully simple, and while the choices they make are local, they actually end up leading to good global assignments. This approach has been successful for Unique Games on unweighted complete graphs. To generalize this to metric weighted graphs, we came up with a randomized algorithm that selects a pivot vertex and then rounds a solution to an extended linear programming relaxation of the problem. Our analysis crucially used the triangle inequality and resulted in the first constant-factor approximation algorithm for our problem. This project culminated in my senior honors thesis, which I presented just before my graduation in April 2025.
 
-Though our result was substantial, the approximability of our problem was not entirely resolved yet. After my graduation in May 2025, I spent time by myself trying to find a polynomial-time approximation scheme (PTAS) for the problem. I reviewed PTASes for metric versions of graph problems that used existing PTASes on dense versions as a subroutine, and this is where I became acquainted with and interested in the approximability of CSPs. I was drawn to them for their generality, and I continue to actively work toward using them to solve my problem.
+Though our result was substantial, the approximability of our problem was not entirely resolved yet. After my graduation, I spent time by myself trying to find a polynomial-time approximation scheme (PTAS) for the problem. I reviewed PTASes for metric versions of graph problems that used existing PTASes on dense versions as a subroutine, and this is where I became acquainted with and interested in the approximability of CSPs. I was drawn to them for their generality, and I continue to actively work toward using existing algorithms for them to solve my problem.
 
-Going into my final semester of undergraduate studies, I enjoyed my classes enough that I decided that I would apply to CS theory PhD programs in Fall 2025. For the 2025-2026 school year, I accepted a job through Americorps as a math tutor at a high school in Boston for students who needed supplemental instruction. Unfortunately, in late June, I found out that due to funding issues, the job would not be offered for the upcoming school year. I was working a retail job in Ann Arbor for the summer in order to save money for graduate school applications, and I decided to continue working at that job throughout the 2025-2026 school year, which would allow me to support myself financially and to audit some graduate theoretical computer science courses that were being offered at Michigan in the fall of 2025. This has been a great way to continue thinking about algorithms and familiarizing myself with different areas of theory.
+Going into my final semester of undergraduate studies, I was completely set on pursuing a career in theoretical computer science research and decided to apply to graduate school during the following cycle. For the 2025-2026 school year, I accepted a job through Americorps as a math tutor at a high school in Boston for students who needed supplemental instruction. Unfortunately, in late June, I found out that due to funding issues, the job would not be offered for the upcoming school year. I was working a retail job in Ann Arbor for the summer in order to save money for graduate school applications, and I decided to continue working at that job throughout the 2025-2026 school year, which would allow me to support myself financially and to audit some graduate theoretical computer science courses that were being offered at Michigan in the fall of 2025. This has been a great way to continue thinking about algorithms and familiarizing myself with different areas of theory.
 
-One of the courses I have been auditing this year is a special topics class on parameterized and fast exponential algorithms. I previously had seen parameterized algorithms in a graph algorithms course I took during my final undergraduate semester, and the course I am auditing is being taught by a professor who mainly works in approximation algorithms, so there was more of a focus on the interaction of parameterized algorithms with approximation. I have become interested in whether or not using both parameterization \emph{and} approximation can give an advantage for problems that each individual subarea suggest is hard. In pursuit of this, for my final project in the class, I am preparing a talk on a recent paper that surveys the parameterized approximability of the clique problem in order to acquaint myself with the existing literature.
-[program-specific paragraph]
+One of the courses I have been auditing this year is a special topics class on parameterized and fast exponential algorithms. I previously had seen parameterized algorithms in a graph algorithms course I took during my final undergraduate semester, and the course I am auditing is being taught by a professor who mainly works in approximation algorithms, so there was more of a focus on the interaction of parameterized algorithms with approximation. I have become interested in whether or not using both parameterization \emph{and} approximation can give an advantage for problems that each individual subarea suggests is hard. In pursuit of this, for my final project in the class, I am preparing a talk on a recent paper that surveys the parameterized approximability of the clique problem in order to acquaint myself with the literature.
 
+
+I would be excited to work with Professor Mitali Bafna on establishing hardness results for parameterized approximation algorithms. She is playing an important role in laying the foundations for parameterized inapproximability results, and I would love to join her in doing so. Specifically, I really enjoyed her recent paper that strengthened time lower bounds for approximating 2-CSPs, it has been an invaluable resource for me as I bring myself to the forefront of the research on parameterized inapproximability. She also frequently uses continuous optimization tools for discrete optimization problems, which is precisely how I resolved my research problem. Working with her would be a natural next step that I would be excited to take. 
 
 \end{document}
+end{document}

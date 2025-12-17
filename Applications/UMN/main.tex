@@ -1,0 +1,109 @@
+
+% Page formatting
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+
+% Math packages
+\usepackage{amsfonts, amsmath, amssymb, amsthm}
+\usepackage{mathtools}
+
+% Graphs
+\usepackage{tikz}
+
+% Formatting packages
+\usepackage{xcolor}
+\usepackage[inline,shortlabels]{enumitem}
+\usepackage{hyperref} % Links
+\hypersetup{colorlinks=true, linkcolor = navyblue, urlcolor=blue}
+\usepackage{titlesec} % Title
+\usepackage{mdframed} % Boxes
+\usepackage[twoside]{fancyhdr} % Header
+\usepackage{mathtools}
+\usepackage{enumitem}
+
+% Algorithm / Code packages
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage[sanserif,full]{complexity}
+
+
+\setlength{\headheight}{15pt}
+
+% -------------------------------------- TITLE ------------------------------------------
+\title{Statement of Purpose}
+\author{Whitaker Thompson}
+\date{\today}
+% -------------------------------------- TITLE ------------------------------------------
+
+% Format the section titles
+\renewcommand{\thesection}{\Roman{section}}
+
+% Commands
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
+\newcommand{\curlyt}{\mathscr{T}}
+\newcommand{\curlyc}{\mathscr{C}}
+\newcommand{\curlyb}{\mathscr{B}}
+\newcommand{\curlyu}{\mathscr{U}}
+\newcommand{\curlyv}{\mathscr{V}}
+\newcommand{\im}{\text{im}}
+\newcommand{\tr}{\text{tr}}
+\newcommand{\inv}[1]{#1^{-1}}
+\DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
+\newcommand{\sol}{\textbf{Solution. }}
+\newtheorem*{lemma}{Lemma}
+
+% EECS 475 Commands
+\newcommand{\keyspace}{\ensuremath{\mathcal{K}}}
+\newcommand{\msgspace}{\ensuremath{\mathcal{M}}}
+\newcommand{\ctspace}{\ensuremath{\mathcal{C}}}
+\newcommand{\tagspace}{\ensuremath{\mathcal{T}}}
+\newcommand{\idspace}{\ensuremath{\mathcal{ID}}}
+\newcommand{\skcgen}{{\sf Gen}} 
+\newcommand{\skcenc}{{\sf Enc}}
+\newcommand{\skcdec}{{\sf Dec}}
+\newcommand{\negl}{\text{negl}}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\calD}{\mathcal{D}}
+\newcommand{\inner}[2]{\langle #1, #2 \rangle}
+\newcommand{\advan}{\textbf{Adv}}
+\newcommand{\Ex}{\mathbb{E}}
+\newcommand{\argmin}{\text{argmin}}
+\newcommand{\argmax}{\text{argmax}}
+
+
+
+\begin{document}
+
+\begin{centering}
+
+{\LARGE Personal Statement}
+
+\vspace*{2mm}
+Whitaker Thompson 
+
+\end{centering}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+
+I hope to pursue a Ph.D. in theoretical computer science to study discrete optimization, particularly approximation algorithms and hardness of approximation for $\NP$-hard problems. I also enjoy thinking about the interaction of these areas with parameterized algorithms, and establishing lower bound and hardness results for the approximate and parameterized versions of these problems.
+
+With Euiwoong Lee, I studied the Unique Games problem when the constraint graph is a metric graph, i.e.\ a complete graph equipped with a weight that obeys the triangle inequality. The Unique Games problem is central in the theory of hardness of approximation; it is conjectured to be $\NP$-hard to distinguish between almost and barely satisfiable cases. This conjecture implies the optimality of approximation algorithms for several canonical $\NP$-hard problems, including \textsc{VertexCover} and \textsc{MaxCut}. Understanding the approximability of the problem on more restricted instances such as ours can give insight into the general case. 
+
+
+An algorithmic paradigm that has been successful in similar problems is that of using a pivot, that is, designating some vertex as the pivot and labeling the other vertices with respect to that vertex's label. This approach has been successful for unique games on complete unweighted graphs. To generalize this to metric weighted graphs, we came up with a randomized algorithm that selects a pivot vertex and then rounds a solution to an extended linear programming relaxation of the problem. Our analysis crucially used the triangle inequality and resulted in the first constant-factor approximation algorithm for our problem. This project culminated in my senior honors thesis, which I presented just before my graduation in April 2025.
+
+Though our result was substantial, the approximability of our problem was not entirely resolved yet. After my graduation, I spent time by myself trying to find a polynomial-time approximation scheme (PTAS) for the problem. I reviewed PTASes for metric versions of graph problems that used existing PTASes on dense versions as a subroutine, and this is where I became acquainted with and interested in the approximability of CSPs. I was drawn to them for their generality, and I continue to actively work toward using existing algorithms for them to solve my problem.
+
+I am planning on starting graduate school in the fall of 2026, and so I had obtained a job through Americorps as a supplemental math tutor at a high school in Boston for the 2025-2026 school year. However, in late June of 2025, I learned that due to funding issues, the job would no longer be offered. I opted to stay in Ann Arbor and continue working my retail job so that I could remain close to the Michigan theory department and audit some graduate classes that were being taught in the fall of 2025. This has been a great way to continue to grow intellectually and expose myself to different areas of theory.
+
+
+One of the courses I have been auditing this year is a special topics class on parameterized and fast exponential algorithms. I previously had seen parameterized algorithms in a graph algorithms course I took during my final undergraduate semester, and the course I am auditing is being taught by a professor who mainly works in approximation algorithms, so there was more of a focus on the interaction of parameterized algorithms with approximation. I have become interested in whether or not using both parameterization \emph{and} approximation can give an advantage for problems that each individual subarea suggests is hard. In pursuit of this, for my final project in the class, I am preparing a talk on a recent paper that surveys the parameterized approximability of the clique problem in order to acquaint myself with the literature.
+
+I would be excited to work with Zihan Tan on approximation algorithms for graph problems. My own research focused on a graph-related problem that was essential to establishing hardness of approximation results for fundamental graph problems. My recent interest in parameterized algorithms has also oriented me towards more graph-theroetic problems, and I would like to study the connection between structural graph parameters and approximation.
+
+\end{document}

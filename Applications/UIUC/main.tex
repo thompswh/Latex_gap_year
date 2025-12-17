@@ -1,0 +1,124 @@
+
+% Page formatting
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+
+% Math packages
+\usepackage{amsfonts, amsmath, amssymb, amsthm}
+\usepackage{mathtools}
+
+% Graphs
+\usepackage{tikz}
+
+% Formatting packages
+\usepackage{xcolor}
+\usepackage[inline,shortlabels]{enumitem}
+\usepackage{hyperref} % Links
+\hypersetup{colorlinks=true, linkcolor = navyblue, urlcolor=blue}
+\usepackage{titlesec} % Title
+\usepackage{mdframed} % Boxes
+\usepackage[twoside]{fancyhdr} % Header
+\usepackage{mathtools}
+\usepackage{enumitem}
+
+% Algorithm / Code packages
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage[sanserif,full]{complexity}
+
+
+\setlength{\headheight}{15pt}
+
+% -------------------------------------- TITLE ------------------------------------------
+\title{Statement of Purpose}
+\author{Whitaker Thompson}
+\date{\today}
+% -------------------------------------- TITLE ------------------------------------------
+
+% Format the section titles
+\renewcommand{\thesection}{\Roman{section}}
+
+% Commands
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
+\newcommand{\curlyt}{\mathscr{T}}
+\newcommand{\curlyc}{\mathscr{C}}
+\newcommand{\curlyb}{\mathscr{B}}
+\newcommand{\curlyu}{\mathscr{U}}
+\newcommand{\curlyv}{\mathscr{V}}
+\newcommand{\im}{\text{im}}
+\newcommand{\tr}{\text{tr}}
+\newcommand{\inv}[1]{#1^{-1}}
+\DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
+\newcommand{\sol}{\textbf{Solution. }}
+\newtheorem*{lemma}{Lemma}
+
+% EECS 475 Commands
+\newcommand{\keyspace}{\ensuremath{\mathcal{K}}}
+\newcommand{\msgspace}{\ensuremath{\mathcal{M}}}
+\newcommand{\ctspace}{\ensuremath{\mathcal{C}}}
+\newcommand{\tagspace}{\ensuremath{\mathcal{T}}}
+\newcommand{\idspace}{\ensuremath{\mathcal{ID}}}
+\newcommand{\skcgen}{{\sf Gen}} 
+\newcommand{\skcenc}{{\sf Enc}}
+\newcommand{\skcdec}{{\sf Dec}}
+\newcommand{\negl}{\text{negl}}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\calD}{\mathcal{D}}
+\newcommand{\inner}[2]{\langle #1, #2 \rangle}
+\newcommand{\advan}{\textbf{Adv}}
+\newcommand{\Ex}{\mathbb{E}}
+\newcommand{\argmin}{\text{argmin}}
+\newcommand{\argmax}{\text{argmax}}
+
+
+
+\begin{document}
+
+\begin{centering}
+
+	{\LARGE Academic Statement}
+
+\vspace*{2mm}
+Whitaker Thompson 
+
+\end{centering}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+
+I hope to pursue a Ph.D. in theoretical computer science to study discrete optimization, particularly approximation algorithms and hardness of approximation for $\NP$-hard problems. I also enjoy thinking about the interaction of these areas with parameterized algorithms, and establishing lower bound and hardness results for the approximate and parameterized versions of these problems.
+
+With Euiwoong Lee, I studied the Unique Games problem when the constraint graph is a metric graph, i.e.\ a complete graph equipped with a weight that obeys the triangle inequality. The Unique Games problem is central in the theory of hardness of approximation; it is conjectured to be $\NP$-hard to distinguish between almost and barely satisfiable cases. This conjecture implies the optimality of approximation algorithms for several canonical $\NP$-hard problems, including \textsc{VertexCover} and \textsc{MaxCut}. Understanding the approximability of the problem on more restricted instances such as ours can give insight into the general case. 
+
+An existing algorithm for the Unique Games problem rounds a solution to a semidefinite programming relaxation of the problem. The quality of the approximation is then dependent on the expansion of the constraint graph. Our initial approach was to try and prove that metric graphs expand well, i.e.\ that the second largest eigenvalue of the normalized adjacency matrix of the graph is bounded above by some constant. I was able to prove a weaker version of this fact, but ultimately switched directions.
+
+In similar problems, where the goal is to assign some labels to vertices to satisfy constraints along edges, an algorithmic paradigm that has been successful is that of using a \emph{pivot}. In these algorithms, a vertex is designated as the pivot, and the label for every vertex in the neighborhood of the pivot is chosen with respect to the constraint along the edge. These algorithms are beautifully simple, and while the choices they make are local, they actually end up leading to good global assignments. This approach has been successful for Unique Games on unweighted complete graphs. To generalize this to metric weighted graphs, we came up with a randomized algorithm that selects a pivot vertex and then rounds a solution to an extended linear programming relaxation of the problem. Our analysis crucially used the triangle inequality and resulted in the first constant-factor approximation algorithm for our problem. This project culminated in my senior honors thesis, which I presented just before my graduation in April 2025.
+
+Though our result was substantial, the approximability of our problem was not entirely resolved yet. After my graduation, I spent time by myself trying to find a polynomial-time approximation scheme (PTAS) for the problem. I reviewed PTASes for metric versions of graph problems that used existing PTASes on dense versions as a subroutine, and this is where I became acquainted with and interested in the approximability of CSPs. I was drawn to them for their generality, and I continue to actively work toward using existing algorithms for them to solve my problem.
+
+Going into my final semester of undergraduate studies, I was completely set on pursuing a career in theoretical computer science research and decided to apply to graduate school during the following cycle. For the 2025-2026 school year, I accepted a job through Americorps as a math tutor at a high school in Boston for students who needed supplemental instruction. Unfortunately, in late June, I found out that due to funding issues, the job would not be offered for the upcoming school year. I was working a retail job in Ann Arbor for the summer in order to save money for graduate school applications, and I decided to continue working at that job throughout the 2025-2026 school year, which would allow me to support myself financially and to audit some graduate theoretical computer science courses that were being offered at Michigan in the fall of 2025. This has been a great way to continue thinking about algorithms and familiarizing myself with different areas of theory.
+
+One of the courses I have been auditing this year is a special topics class on parameterized and fast exponential algorithms. I previously had seen parameterized algorithms in a graph algorithms course I took during my final undergraduate semester, and the course I am auditing is being taught by a professor who mainly works in approximation algorithms, so there was more of a focus on the interaction of parameterized algorithms with approximation. I have become interested in whether or not using both parameterization \emph{and} approximation can give an advantage for problems that each individual subarea suggests is hard. In pursuit of this, for my final project in the class, I am preparing a talk on a recent paper that surveys the parameterized approximability of the clique problem in order to acquaint myself with the literature.
+
+I would be particularly excited to work with Chandra Chekuri and Karthekeyan Chandrasekaran on approximation algorithms. I am drawn to them in part due to their recent joint work on feedback vertex set and other combinatorial problems that uses continuous tools, as that is a technique that I have enjoyed thinking about in my own research. My burgeoning interest in parameterized algorithms has more recently oriented me toward more graph-theoretic approximation problems, and so their shared interest in network design and graph theory would give me the opportunity to explore that more, in addition to being able to continue working with Professor Chandrasekaran on the interaction between parameterization and approximation.
+
+%---------------------------------------------
+
+\newpage
+
+Upon completing my undergraduate degree in May of 2025, I had planned to work as a supplemental math tutor at a high school in Boston through Americorps for the 2025-2026 school year. Unfortunately, in late June, I found out that due to funding issues, the job was no longer available. I knew that I would be attending graduate school starting in the fall of 2026, so I was faced with the predicament of what to do for the upcoin school year. I was certain that my ultimate goal was to study and research theoretical computer science, and that was the most important consideration in planning for my newly free year. I decided to continue working at my retail job in Ann Arbor so that I could remain near the University of Michigan theory department and audit some graduate theory courses. I could support myself financially, practice living on a roughly graduate student-sized salary, and have days off in the middle of the week so that I could attend classes. I was initially disappointed that I wouldn't be working as a math tutor for students who needed it, but I have come to really enjoy my time this year and take comfort in knowing that I have made the most of an unfortunate situation. Though I am not doing what I had originally planned, I am still on my desired path towards the career I want in thinking about the theoretical computer science problems I love.
+
+\newpage
+
+	I spent the summer after my first full year of undergraduate study working for the Math Corps at Michigan. The goal of the Math Corps is to teach local underprivileged middle school students to believe in themselves through positive reinforcement and math education. Many of our students came from racial, economic, and educational backgrounds that were dissimilar to my own. The disparity in our experiences taught me to be more conscientious in my interactions with the students; I had to ensure that the students felt heard and supported, and to consider that their experience learning math had likely been very different from my own. Pragmatically, this entailed considering alternative explanations that might be better suited to the student, or providing a different motivation for learning the math. It was an important experience in teaching me that education and collaboration should be about the needs of others, not my own.
+	Many of the jobs I have had since that summer have been in teaching roles, and I am usually instructing students who are not as enthusiastic about math as I am. My experience in the Math Corps has prepared me well for such a situation; instead of explaining the material in the way that I think about it, I have grown to become a more adept listener and have learned to cater to their educational needs. This awareness has also made me a better collaborator, as I have grown to be more attuned towards my collaborators' needs and points of view.
+
+\newpage
+
+Another thing that drew me to U.I.U.C.'s theory group and to Chandra Chekuri specifically was the title of his recent paper, "Corporate Needs You to Find the Difference: Revisiting Submodular and Supermodular Ratio Optimization Problems." The first part of this title is a reference to a line from the television series The Office, and it suggests that Dr. Chekuri and the department would be a great cultural fit for me. Not only do I love The Office, but more importantly I love theoretical computer science. I have been entranced by the main ideas of theory for as long as I have been aware of them, and they continue to fascinate me as I learn more and more about them. One of the primary strengths of the Michigan theory department is not just the eminence and competence of it's researchers, but the passion with which they teach and talk about their subject. I could tell in lectures that despite decades of studying these ideas, they were still excited and suprised by them, and their enthusiasm was infectious. The choice to include this reference in the title of his paper tells me that Dr. Chekuri feels similarly positive about the work he does. Not only does he and the U.I.U.C. seem like a good intellectual fit for me, this tells me that it would also be a great cultural and personality fit, that the theorists there love computer science as much as I do. 
+
+\end{document}
