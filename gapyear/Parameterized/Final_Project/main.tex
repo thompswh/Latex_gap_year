@@ -19,7 +19,7 @@
 \tcbuselibrary{theorems}
 \tcbset{enhanced, breakable}
 \usepackage{hyperref} % Links
-\hypersetup{colorlinks=true, citecolor = blue, linkcolor = blue, urlcolor=blue}
+\hypersetup{colorlinks=true, citecolor=blue, linkcolor = blue, urlcolor=blue}
 \usepackage{titlesec} % Title
 \usepackage{mdframed} % Boxes
 \usepackage[twoside]{fancyhdr} % Header
@@ -33,7 +33,7 @@
 
 \setlength{\headheight}{15pt}
 % -------------------------------------- TITLE ------------------------------------------
-\title{Title}
+\title{Parameterized inapproximability: From PIH to Clique}
 \author{Whitaker Thompson}
 \date{\today}
 % -------------------------------------- TITLE ------------------------------------------
@@ -57,21 +57,19 @@
 \newcommand{\inv}[1]{#1^{-1}}
 \DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
 \newcommand{\sol}{\textbf{Solution. }}
-
-
-% I added these, above are David's
-
 \newcommand{\negl}{\text{negl}}
 \newcommand{\bit}{\{0,1\}}
 \newcommand{\inner}[2]{\langle #1, #2 \rangle}
 \newcommand{\Ex}{\mathbb{E}}
 \newcommand{\argmin}{\text{argmin}}
 \newcommand{\argmax}{\text{argmax}}
+
+
+
 % Problems
 \newcommand{\Clique}{\textsc{Clique}}
 \newcommand{\VertexCover}{\textsc{VertexCover}}
 \newcommand{\IndependentSet}{\textsc{IndependentSet}}
-
 % Colored theorem environment
 
 \newtcbtheorem[number within=subsection]
@@ -154,6 +152,7 @@
 
 
 
+
 \newtcbtheorem[number within=subsection]
 {conjecture}
 {Conjecture}
@@ -173,6 +172,9 @@
   }
 {conje}
 
+
+
+
 \newtcbtheorem[number within=subsection]
 {problem}
 {Problem}
@@ -186,6 +188,7 @@
   arc=0pt
 }
 {prob}
+
 
 
 \begin{document}
@@ -202,18 +205,69 @@
 \maketitle
 \thispagestyle{fancy} % For formatting the title page
 
-
+We are reviewing \cite{CLIQUE-TO-PIH} in order to give a talk on it for my final pproject in the class I am fake auditing.
 
 % -----------------------------COMMANDS FOR TOC ------------------------------------
-%\tableofcontents
-%\newpage
+\tableofcontents
+\newpage
 
 
 %---------------------------------- BEGIN -------------------------------------------
-Hello \textit{\LaTeX}
+\section{Introduction}
+
+There are strong inapproximability results for the $k$-clique problem. One gets straightaway from the PCP theorem and the FGLSS graph that there it is $\NP$-hard to approximate within a constant factor, and it turns out for any $\varepsilon > 0$, it is $\NP$-hard to approximate within a factor of $\frac{1}{n^{1-\varepsilon}}$. It is also known from the parameterization side that this problem is $\W[1]$-hard, and so an $\FPT$-algorithm would imply that $\P = \NP$, with $\W[1]$ playing the analogue role to $\NP$ in parameterized complexity. One desires to rule out approximation algorithms that are based on approximation \emph{and} parameterization, i.e.\ we want to be able to say that even in the parameterized setting, one cannot approximate $k$-$\Clique$ well.
+
+It actually has been proven that a constant-factor approximation for $k$-$\Clique$is $\W[1]$-hard, as was shown in \cite{Constant-approximating-kclique-is-w[1]-hard}. This was quickly improved to show that it is $\W[1]$-hard to approximate within factor $k^{o(1)}$. Though they do not use a parameterized PCP theorem, the proof in \cite{Constant-approximating-kclique-is-w[1]-hard} follows the usual PCP-based approximation formula. That is, they do the following
+
+\begin{enumerate}
+	\item Reduce $k$-clique to an algebraic problem, $k$-vector sum
+
+	\item Using Hadamard codes with local testing and decoding, $k$-vector sum is reduced to 2CSP
+
+	\item The 2CSP instances are turned back into $k$-clique instances, but now with a gap
+
+\end{enumerate}
+
+It has been suggested that the constant inapproximability of the parameterized binary CSP would serve as a parameterized PCP theorem, and it has thus been dubbed the \emph{parameterized inapproximability hypothesis} (PIH henceforth.) The paper will serve as an explanation for these.
+
+\section{Definitions}
+
+We give a list of definitions here (only the unusual ones or ones I don't recognize):
+
+\begin{definition}{Algebra}{algebra}
+
+	Let $q$ be a prime power. Then $\FF_q$ is the unique finite field with $q$ elements. If $q$ itself is prime, then $\FF_q$ is a \emph{prime field}. Boldface letters $\textbf{u}$ denote vectors in $\FF_q^d$, and for every $v \in \FF_q^d$ and $i \in [d]$ is denoted as $v[i]$.
+\end{definition}
 
 
-%\newpage
-%\bibliographystyle{plain}
-%\bibliography{references}
+\begin{definition}{FPT Reduction}{fptred}
+
+	Let $P_1 = (Q_1, \kappa_1)$ and $P_2 = (Q_2, \kappa_2)$ be two parameterized problems. An $\FPT$-reduction from $P_1$ to $P_2$ is an $\FPT$-algorithm $R$ such that for every instance $x$ of $P_1$, the algorithm $R$ computes an instance $R(x)$ of $P_2$ satisfying \begin{itemize}[-]
+		\item $x \in Q_1 \Longleftrightarrow R(x) \in Q_2$
+
+		\item $\kappa_2(R(x)) \le g(\kappa_1(x))$ for a computable function $g : \NN \to \NN$ independent of $x$.
+
+	\end{itemize}
+
+	This means that $\W[1]$ is the set of all problems that can be reduced to $k$-$\Clique$ by an $\FPT$-reduction.
+\end{definition}
+
+\section{Parameterized optimization and approximation}
+
+Instead of considering \textsc{Max-Clique} and the traditional $k$-clique problem, the paper will consider the multicolored $k$-clique problem:
+
+\begin{problem}{Multi-colored $k$-clique}{mckc}
+
+	Input: A graph $G$ such that $V(G) = V_1 \sqcup \cdots \sqcup V_k$ and each $V_i$ is an independent set.
+	Parameter: $k$
+	Output: Yes if $G$ contains a $k$-clique, no o.w.
+	
+
+\end{problem}
+
+If $G$ is an instance of \ref{prob:mckc}, then $\omega(G)$ (independence number of $G$) is at most $k$, since each $V_i$ is an independent set. The reduction from $k$-clique is trivial; make $k$ disjoint copies of $V(G)$ and add an edge between $\{u,i\}$ and $\{v,j\}$ if $\{u,v\} \in E(G)$ and $i \ne j$. This new graph $G'$ has a $k$-clique if and only if $G$ does, so Max-Clique is $\FPT$ iff \ref{prob:mckc} is.
+
+\newpage
+\bibliographystyle{plain}
+\bibliography{references}
 \end{document}

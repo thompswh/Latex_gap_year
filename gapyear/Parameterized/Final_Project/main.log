@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.15)  29 DEC 2025 10:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.15)  18 DEC 2025 17:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -523,6 +523,330 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@count@id=\count323
 \enitdp@description=\count324
 )
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
+Package: tcolorbox 2025/09/09 version 6.8.0 text color boxes
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks44
+\verbatim@line=\toks45
+\verbatim@in@stream=\read3
+)
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.s
+ty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count325
+)
+\tcb@titlebox=\box68
+\tcb@upperbox=\box69
+\tcb@lowerbox=\box70
+\tcb@phantombox=\box71
+\c@tcbbreakpart=\count326
+\c@tcblayer=\count327
+\c@tcolorbox@number=\count328
+\l__tcobox_tmpa_box=\box72
+\l__tcobox_tmpa_dim=\dimen285
+\tcb@temp=\box73
+\tcb@temp=\box74
+\tcb@temp=\box75
+\tcb@temp=\box76
+
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbraster.cod
+e.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.8.0'
+\c@tcbrastercolumn=\count329
+\c@tcbrasterrow=\count330
+\c@tcbrasternum=\count331
+\c@tcbraster=\count332
+)
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.code
+.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.8.0'
+
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill.image
+.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill-commo
+n.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+)
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzlibraryfil
+l.image.code.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box77
+))
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsa
+w.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.8.0'
+))
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbbreakable.
+code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.8.0'
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/pdfcol\pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+))
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box78
+\tcb@totalupperbox=\box79
+\tcb@totallowerbox=\box80
+)
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbhooks.code
+.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.8.0'
+)
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbtheorems.c
+ode.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.8.0'
+)
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbfitting.co
+de.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.8.0'
+\tcbfitdim=\dimen286
+\tcb@lowerfitdim=\dimen287
+\tcb@upperfitdim=\dimen288
+\tcb@cur@hbadness=\count333
+)
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingsut
+f8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.8.0'
+
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistings.c
+ode.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.8.0'
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lstset,
+\lst@mode=\count334
+ 
+new hook `InitVars',
+
+new hook `EndGroup',
+
+new hook `ExitVars',
+
+new hook `ModeTrue',
+
+new hook `EOL',
+\lst@gtempboxa=\box81
+\lst@token=\toks46
+\lst@length=\count335
+
+new hook `InitVarsBOL',
+\lst@currlwidth=\dimen289
+\lst@column=\count336
+\lst@pos=\count337
+\lst@lostspace=\dimen290
+\lst@width=\dimen291
+basewidth, 
+new hook `FontAdjust',
+fontadjust, 
+new hook `PostOutput',
+
+new hook `OutputBox',
+
+new hook `InitBOL',
+columns, flexiblecolumns,
+\lst@newlines=\count338
+ 
+new hook `OnNewLine',
+emptylines, 
+new hook `OnEmptyLine',
+identifierstyle, 
+new hook `EmptyStyle',
+
+new hook `OutputOther',
+
+new hook `Output',
+tabsize, showtabs, tab, showspaces, keepspaces, 
+new hook `Init',
+formfeed, upquote, SelectCharTable, MoreSelectCharTable,
+
+new hook `SetLanguage',
+extendedchars, useoutput, rescanchars, alsoletter, alsodigit, alsoother,
+
+new hook `SelectCharTable',
+excludedelims, delim, moredelim, deletedelim, literate, basicstyle,
+inputencoding, multicols, 
+new hook `EveryLine',
+\lst@lineno=\count339
+print, firstline, lastline, 
+new hook `PreSet',
+nolol, linerange, consecutivenumbers, rangeprefix, rangesuffix,
+rangebeginprefix, rangebeginsuffix, rangeendprefix, rangeendsuffix,
+includerangemarker, 
+new hook `DeInit',
+captionpos, abovecaptionskip, belowcaptionskip, label, title, caption,
+
+new hook `TextStyle',
+\lstlistingname, \lstlistingnamestyle, numberbychapter, boxpos, float,
+floatplacement, aboveskip, belowskip, everydisplay, 
+new hook `DisplayStyle',
+
+new hook `PreInit',
+
+new hook `EveryPar',
+showlines,
+\lst@maxwidth=\dimen292
+ 
+new hook `InitVarsEOL',
+gobble, name, \lstlistlistingname, \lstlistoflistings, inputpath,
+\lstnewenvironment, fancyvrb,
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2025/10/06 1.11 (Carsten Heinz)
+)
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2025/10/06 1.11 (Carsten Heinz)
+
+
+Define lst-aspect `strings': string, morestring, deletestring, stringstyle,
+showstringspaces, 
+new hook `ExcludeDelims',
+
+Allocs: none
+
+Define lst-aspect `comments': comment, morecomment, deletecomment,
+commentstyle, 
+new hook `AfterBeginComment',
+
+Allocs: none
+
+Define lst-aspect `escape': texcl, escapebegin, escapeend, escapechar,
+escapeinside, mathescape, 
+Allocs: none
+
+Define lst-aspect `keywords': sensitive, 
+new hook `TrackKeywords',
+
+new hook `PostTrackKeywords',
+
+new hook `DetectKeywords',
+classoffset, keywords, morekeywords, deletekeywords, keywordstyle,
+keywordstyle, ndkeywords, morendkeywords, deletendkeywords, ndkeywordstyle,
+keywordsprefix, otherkeywords, 
+Allocs: none
+
+Define lst-aspect `emph': emph, moreemph, deleteemph, emphstyle, 
+Allocs: none
+
+Define lst-aspect `index': index, moreindex, deleteindex, indexstyle,
+\lstindexmacro, 
+Allocs: none
+
+Define lst-aspect `style': \lststylefiles, \lstdefinestyle, \lst@definestyle,
+style, 
+new hook `SetStyle',
+
+Allocs: none
+
+Define lst-aspect `language': \lstlanguagefiles, \lstdefinelanguage,
+\lst@definelanguage, language, alsolanguage, \lstalias, defaultdialect,
+
+Allocs: none
+
+Define lst-aspect `labels': numbers, stepnumber, numberfirstline, numberstyle,
+numbersep, numberblanklines, firstnumber,
+\c@lstnumber=\count340
+\lst@skipnumbers=\count341
+ 
+Allocs: 2\count, 
+
+Define lst-aspect `lineshape': xleftmargin, xrightmargin, resetmargins,
+
+new hook `BoxUnsafe',
+linewidth, lineskip, breaklines, breakindent, breakautoindent,
+breakatwhitespace, prebreak, postbreak, 
+Allocs: none
+
+Define lst-aspect `frames': framexleftmargin, framexrightmargin,
+framextopmargin, framexbottommargin, backgroundcolor, fillcolor, rulecolor,
+rulesepcolor, rulesep, framerule, framesep, frameshape, frameround, frame,
+\lst@framebox=\box82
+
+
+Allocs: 1\box, 
+) 
+Allocs: 8\count, 4\dimen, 2\box, 1\toks, 
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2025/10/06 1.11 listings configuration
+))
+Package: listings 2025/10/06 1.11 (Carsten Heinz)
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/10/06 1.11 (Carsten Heinz)
+    so I'm assuming it got fixed.
+
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingsco
+re.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.8.0'
+
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbprocessing
+.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.8.0'
+)
+\c@tcblisting=\count342
+))
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/listingsutf8\listingsut
+f8.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)) inputencoding,))
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbexternal.c
+ode.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.8.0'
+)
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbmagazine.c
+ode.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.8.0'
+)
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbvignette.c
+ode.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.8.0'
+
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryfadings.code.tex
+File: pgflibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbposter.cod
+e.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.8.0'
+))
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
 
@@ -533,26 +857,6 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 keys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
-ty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-
-(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
-ty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-))
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
@@ -569,20 +873,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count325
+\c@section@level=\count343
 )
-(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count326
-)
-(C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
-ty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
-)
-\@linkdim=\dimen285
-\Hy@linkcounter=\count327
-\Hy@pagecounter=\count328
+\@linkdim=\dimen293
+\Hy@linkcounter=\count344
+\Hy@pagecounter=\count345
  (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -590,7 +885,7 @@ Now handling font encoding PD1 ...
 ) (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count329
+\Hy@SavedSpaceFactor=\count346
  (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -603,14 +898,14 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count330
+\c@Hy@tempcnt=\count347
 
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen286
+\XeTeXLinkMargin=\dimen294
 
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -620,9 +915,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count331
-\Field@Width=\dimen287
-\Fld@charsize=\dimen288
+\Fld@menulength=\count348
+\Field@Width=\dimen295
+\Fld@charsize=\dimen296
 Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
@@ -630,16 +925,16 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count332
-\c@Item=\count333
-\c@Hfootnote=\count334
+\Hy@abspage=\count349
+\c@Item=\count350
+\c@Hfootnote=\count351
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count335
-\c@bookmark@seq@number=\count336
+\Fld@listcount=\count352
+\c@bookmark@seq@number=\count353
 
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -654,19 +949,19 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip62
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 17.
+Package hyperref Info: Option `colorlinks' set `true' on input line 22.
 
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box68
+\ttl@box=\box83
 \beforetitleunit=\skip63
 \aftertitleunit=\skip64
-\ttl@plus=\dimen289
-\ttl@minus=\dimen290
-\ttl@toksa=\toks44
-\titlewidth=\dimen291
-\titlewidthlast=\dimen292
-\titlewidthfirst=\dimen293
+\ttl@plus=\dimen297
+\ttl@minus=\dimen298
+\ttl@toksa=\toks47
+\titlewidth=\dimen299
+\titlewidthlast=\dimen300
+\titlewidthfirst=\dimen301
 )
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
@@ -679,7 +974,7 @@ Package: expl3 2025-10-24 L3 programming layer (loader)
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count337
+\l__color_backend_stack_int=\count354
 ))
 Package: xparse 2025-10-09 L3 Experimental document command parser
 )
@@ -698,14 +993,14 @@ Package zref Info: New property list: main on input line 767.
 Package zref Info: New property: default on input line 768.
 Package zref Info: New property: page on input line 769.
 )
-\c@abspage=\count338
+\c@abspage=\count355
 Package zref Info: New property: abspage on input line 67.
 )
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
 Package: needspace 2025/03/13 v1.3e reserve vertical space
 )
 \mdf@templength=\skip65
-\c@mdf@globalstyle@cnt=\count339
+\c@mdf@globalstyle@cnt=\count356
 \mdf@skipabove@length=\skip66
 \mdf@skipbelow@length=\skip67
 \mdf@leftmargin@length=\skip68
@@ -749,11 +1044,11 @@ Package: needspace 2025/03/13 v1.3e reserve vertical space
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\md-frame-0.mdf
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 )
-\mdf@frametitlebox=\box69
-\mdf@footnotebox=\box70
-\mdf@splitbox@one=\box71
-\mdf@splitbox@two=\box72
-\mdf@splitbox@save=\box73
+\mdf@frametitlebox=\box84
+\mdf@footnotebox=\box85
+\mdf@splitbox@one=\box86
+\mdf@splitbox@two=\box87
+\mdf@splitbox@save=\box88
 \mdfsplitboxwidth=\skip105
 \mdfsplitboxtotalwidth=\skip106
 \mdfsplitboxheight=\skip107
@@ -781,16 +1076,16 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \mdf@horizontalspaceofbox=\skip129
 \mdfsubtitleheight=\skip130
 \mdfsubsubtitleheight=\skip131
-\c@mdfcountframes=\count340
+\c@mdfcountframes=\count357
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count341
-\c@mdf@env@i=\count342
-\c@mdf@env@ii=\count343
-\c@mdf@zref@counter=\count344
+\mdf@envdepth=\count358
+\c@mdf@env@i=\count359
+\c@mdf@env@ii=\count360
+\c@mdf@zref@counter=\count361
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
@@ -810,12 +1105,12 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip143
 \f@nch@widthC=\skip144
 \f@nch@widthR=\skip145
-\@temptokenb=\toks45
+\@temptokenb=\toks48
 )
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/algorithm2e\algorithm2e
 .sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count345
+\c@AlgoLine=\count362
  (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
@@ -823,7 +1118,7 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count346
+\c@checkoddpage=\count363
 ) (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
@@ -838,60 +1133,67 @@ Package: relsize 2013/03/29 ver 4.1
 \skiplength=\skip152
 \algomargin=\skip153
 \skipalgocfslide=\skip154
-\algowidth=\dimen294
-\inoutsize=\dimen295
-\inoutindent=\dimen296
-\interspacetitleruled=\dimen297
-\interspacealgoruled=\dimen298
-\interspacetitleboxruled=\dimen299
+\algowidth=\dimen302
+\inoutsize=\dimen303
+\inoutindent=\dimen304
+\interspacetitleruled=\dimen305
+\interspacealgoruled=\dimen306
+\interspacetitleboxruled=\dimen307
 \algocf@ruledwidth=\skip155
-\algocf@inoutbox=\box74
-\algocf@inputbox=\box75
+\algocf@inoutbox=\box89
+\algocf@inputbox=\box90
 \AlCapSkip=\skip156
 \AlCapHSkip=\skip157
 \algoskipindent=\skip158
-\algocf@nlbox=\box76
-\algocf@hangingbox=\box77
-\algocf@untilbox=\box78
+\algocf@nlbox=\box91
+\algocf@hangingbox=\box92
+\algocf@untilbox=\box93
 \algocf@skipuntil=\skip159
-\algocf@capbox=\box79
+\algocf@capbox=\box94
 \algocf@lcaptionbox=\skip160
 \algoheightruledefault=\skip161
 \algoheightrule=\skip162
 \algotitleheightruledefault=\skip163
 \algotitleheightrule=\skip164
-\c@algocfline=\count347
-\c@algocfproc=\count348
-\c@algocf=\count349
-\algocf@algoframe=\box80
-\algocf@algobox=\box81
+\c@algocfline=\count364
+\c@algocfproc=\count365
+\c@algocf=\count366
+\algocf@algoframe=\box95
+\algocf@algobox=\box96
 )
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/complexity\complexity.s
 ty
 Package: complexity 09/16/17  v0.81a
 
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/complexity\mycomplexity
-.sty)) (main.aux)
+.sty))
+\c@tcb@cnt@definition=\count367
+\c@tcb@cnt@ex=\count368
+\c@tcb@cnt@thm=\count369
+\c@tcb@cnt@note=\count370
+\c@tcb@cnt@conjecture=\count371
+\c@tcb@cnt@problem=\count372
+ (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -931,17 +1233,17 @@ LaTeX Font Info:    ... okay on input line 79.
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count350
-\scratchdimen=\dimen300
-\scratchbox=\box82
-\nofMPsegments=\count351
-\nofMParguments=\count352
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count353
-\MPscratchDim=\dimen301
-\MPnumerator=\count354
-\makeMPintoPDFobject=\count355
-\everyMPtoPDFconversion=\toks47
+\scratchcounter=\count373
+\scratchdimen=\dimen308
+\scratchbox=\box97
+\nofMPsegments=\count374
+\nofMParguments=\count375
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count376
+\MPscratchDim=\dimen309
+\MPnumerator=\count377
+\makeMPintoPDFobject=\count378
+\everyMPtoPDFconversion=\toks50
 )
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -961,51 +1263,73 @@ G,.JBIG2,.JB2,.eps]
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 79.
- (main.out) (main.out)
+\c@lstlisting=\count379
+ (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks51
+\inpenc@posthook=\toks52
+)
+Package hyperref Info: Link coloring ON on input line 194.
+(main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 93.
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 206
+.
 
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 93.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 206
+.
 
 (C:\Users\whita\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-[1
+(main.toc)
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
-{C:/Users/whita/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-(main.aux)
+ [1{C:/Users/whita/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+
+] [2] [3] (main.bbl) [4] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: E43041C9CC6738B5D81649D250778809;473.
  ) 
 Here is how much of TeX's memory you used:
- 24679 strings out of 467871
- 451813 string characters out of 5418375
- 877391 words of memory out of 5000000
- 53151 multiletter control sequences out of 15000+600000
- 634220 words of font info for 64 fonts, out of 8000000 for 9000
+ 31573 strings out of 467871
+ 628029 string characters out of 5418375
+ 1089433 words of memory out of 5000000
+ 59920 multiletter control sequences out of 15000+600000
+ 638208 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,6n,107p,1101b,454s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,107p,827b,1031s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/whita/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmcsc10.pfb><C:/Users/whita/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr10.pfb><C:/Users/whita/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr17.pfb><C:/Users/whita/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/whita/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (2 pages, 70545 bytes).
+cmbx10.pfb><C:/Users/whita/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><C:/Users/whita/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmcsc10.pfb><C:/Users/whita/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/whita/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/whita/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/whita/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/whita/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/User
+s/whita/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+<C:/Users/whita/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+r6.pfb><C:/Users/whita/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr8.pfb><C:/Users/whita/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmss10.pfb><C:/Users/whita/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><C:/Users/whita/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/whita/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/whita/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/whita/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (4 pages, 221117 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 179 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

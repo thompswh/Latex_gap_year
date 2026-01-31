@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1767023273.40531 "main2.tex" "main2.pdf" "main2" 1767023280.7061 0
+["pdflatex"] 1767033076.88423 "main2.tex" "main2.pdf" "main2" 1767033080.89941 0
   "C:/Users/whita/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1765997234 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/whita/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1763211849 13333512 d01b03c3598d1d8aa14ccffea3bcca82 ""
   "C:/Users/whita/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -165,9 +165,9 @@
   "C:/Users/whita/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/whita/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1750428951 2269 2de6c7a5fd634dfef00a960544463a38 ""
   "C:/Users/whita/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1750428951 20785 198a9cb2e04238d92c320d0d9edbd76a ""
-  "main2.aux" 1767023280 234 7c5e75dd52d50eb65b60bc56617635fd "pdflatex"
-  "main2.out" 1767023279 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main2.tex" 1765828630 6283 ca261a16f5c998c5d904d1cb24c7befc ""
+  "main2.aux" 1767033080 234 130d274cf93b328b1e1ef1b892efb359 "pdflatex"
+  "main2.out" 1767033080 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main2.tex" 1767033075 6273 e44ffe57fa3566af6cec488f7adbe00c ""
   (generated)
   "main2.aux"
   "main2.log"

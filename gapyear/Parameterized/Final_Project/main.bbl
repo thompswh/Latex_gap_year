@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+
+\bibitem{CLIQUE-TO-PIH}
+Yijia Chen and Bingkai Lin.
+\newblock Parameterized inapproximability: From clique to pih.
+\newblock {\em Computer Science Review}, 59:100834, 2026.
+
+\bibitem{Constant-approximating-kclique-is-w[1]-hard}
+Bingkai Lin.
+\newblock Constant approximating k-clique is w[1]-hard.
+\newblock In {\em Proceedings of the 53rd Annual ACM SIGACT Symposium on Theory
+  of Computing}, STOC 2021, page 1749–1756, New York, NY, USA, 2021.
+  Association for Computing Machinery.
+
+\end{thebibliography}
